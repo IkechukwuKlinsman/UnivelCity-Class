@@ -39,38 +39,38 @@ print(addition(2,4))
 
 # Write a function that takes in any number and return True or False if it is a prime number
 
-def is_prime(num):
-    if num <=1:
-        return False
-    if num ==2:
-        return True
+# def is_prime(num):
+#     if num <=1:
+#         return False
+#     if num ==2:
+#         return True
 
-    for n in range(2,num):
-        if num % n == 0:
-            return False
+#     for n in range(2,num):
+#         if num % n == 0:
+#             return False
 
-        else:
-            return True
-print(is_prime(13))
-
-
-def add_num(a,b):
-    print(a-b)
-
-add_num(b=2,a=5)
+#         else:
+#             return True
+# print(is_prime(13))
 
 
-def add_num(*args):
-    return sum(args)
+# def add_num(a,b):
+#     print(a-b)
 
-data = [1,2,3,4,5,4,2]   
-print(add_num(*data))
+# add_num(b=2,a=5)
 
-def adsss(**kwargs):
-    print(kwargs)
 
-def ads(a,b,c):
-    return a*b+c
+# def add_num(*args):
+#     return sum(args)
 
-a = {'a':3, 'b': 4, 'c': 2}
-print(ads(**a))
+# data = [1,2,3,4,5,4,2]   
+# print(add_num(*data))
+
+# def adsss(**kwargs):
+#     print(kwargs)
+
+# def ads(a,b,c):
+#     return a*b+c
+
+# a = {'a':3, 'b': 4, 'c': 2}
+# print(ads(**a))

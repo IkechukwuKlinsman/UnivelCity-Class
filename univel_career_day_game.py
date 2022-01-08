@@ -1,3 +1,23 @@
+import random
+import time
+
+print('Hello Everyone!!!') 
+time.sleep(1)
+
+print('Welcome To The Python Terminal Version of Among Us')
+time.sleep(1)
+print('We Will Start With EVeryone Entering Their Names One After The Other')
+time.sleep(3)
+
+# people_in_class = ['Dami', 'Israel', 'Bisola', 'Bridget', 'Tolu', 'Roukie', 'Ifemide']
+people_in_class = []
+
+for i in range(6):
+    people_in_class.append(input('Enter name here:\n'))
+
+# print(people_in_class)
+
+
 def play_game():
     killer = random.choice(people_in_class)
     # people_in_class.remove(killer)
